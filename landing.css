@@ -7,33 +7,34 @@ body {
     font-family: 'Lato', sans-serif;
     background: #61656d;
     margin: 0;
-    color: white;
+    color:#232a38;
   }
 
   
   
 h1{
    
-    font-weight: 400;
-    font-size: 4rem;
+    font-weight: 600;
+    font-size: 7rem;
     text-transform: uppercase;
     margin: 0;
     color: #07c8f9;
-    text-shadow: 1px 1px white;
+    text-shadow: 5px 5px #232a38;
+
   }
 
   
 h2 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: capitalize;
     margin: 0;
-    color: white;
+    color:#acb5b4;
   }
 
 p {
-    font-size: 1.5rem;
-    color: white;
+    font-size: 2rem;
+    color:#232a38;
     text-align: justify;
     margin-left: 1rem;
     margin-right: 1rem; 
@@ -46,14 +47,14 @@ img {
 
 
 main{
-    background: #181F31;
+    background: #f6f6f7;
     max-width: 750px;
     margin: auto;
    
 }
   
 #landing {
-    background: #181F31;
+    background: #f6f6f7;
     width: auto;
   }
   
@@ -69,7 +70,7 @@ main{
   }
   
 #landing-text h2 {
-    color: white;
+    color:#acb5b4;
   }
   
 #landing-image {
@@ -87,13 +88,15 @@ main{
 .btn {
     padding: 1rem 3rem;
     display: inline-block;
-    margin: 2rem 0;
+    margin: 2rem 0.5rem;
     border-radius: 50px;
     text-decoration: none;
-    color: white;
+    color:#f6f6f7;
     transition: background 500ms ease;
     background: #07c8f9;
     font-weight: 600;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  transition: 0.3s;
   }
   
 .btn:hover {
@@ -103,6 +106,9 @@ main{
 
 
 @media (min-width: 500px) {
+  h1{
+    font-size: 8rem;
+  }
    main{
        max-width: 2000px;
    }

@@ -3,7 +3,7 @@ html{
     box-sizing: border-box;  
 }
 body{
-    background: #f6f6f7;
+    background: #fff;
     width: 100%;
     font-family: 'Lato', sans-serif;
     margin: auto;
@@ -16,11 +16,11 @@ h1{
 }
 
 h2{
-   background: #07c8f9;
+   
    font-family: 'Oswald', sans-serif; 
    margin: 0 ;
    padding: 1.125rem;
-   color: #f6f6f7;
+   color:#fff;
    font-weight: 600;
    text-align:center;
    font-size: 4rem;
@@ -38,7 +38,7 @@ header{
   display: flex;
   flex-direction: column;
   width: auto; 
-  background: #07c8f9;
+  background: #7dbae6;
   margin: 0;
  padding-bottom: 1rem;
 }
@@ -48,22 +48,24 @@ nav{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: #07c8f9;
+   background: #7dbae6;
    padding: 1rem;
 }
 nav a{
   
-    background: #07c8f9;
+ 
     padding: 1rem; 
     margin: 0.5rem;
     color: #f6f6f7;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 2.5rem;
-    transition: background 500ms ease;
+    text-decoration: none;
+   
 }
 nav a:hover{
-    background: #024455;
+color: black; 
+border-bottom: black 1px solid;
 }
 
 main{
@@ -99,9 +101,11 @@ margin: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #232A38;
-  color: #f6f6f7;
+  background: #7dbae6;
+  color: #fff;
   width: 75%;
+  height: auto;
+  padding: 1.5rem;
   border-radius: 5px;
   margin: 0.9375rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
@@ -208,14 +212,12 @@ footer{
         }
 
         nav a{
-  
-            background: #07c8f9;
              margin: 0.5rem;
             color: #f6f6f7;
             text-transform: uppercase;
             font-weight: 600;
             font-size: 1.5rem;
-            transition: background 500ms ease;
+
         } 
         
 
@@ -247,12 +249,12 @@ footer{
 
     nav a{
   
-        background: #07c8f9;
+       
         color: #f6f6f7;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 2rem;
-        transition: background 500ms ease;
+       
     } 
 
     .aboutText{
@@ -277,7 +279,7 @@ footer{
     .card{
       border-radius: 5px;
       margin: 2rem;
-      width: 45%;
+      width: 25%;
       }
 }
 
@@ -286,7 +288,8 @@ footer{
 .card{
       border-radius: 5px;
       margin: 2rem;
-      width: 30%;
+      width: 20%;
+      height: auto;
       }
 }
  

@@ -2,19 +2,20 @@ html{
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Lato', sans-serif;
   background:#7dbae6;
   margin: auto;
   color:#fff;
 }
+
 header{
   display: flex;
   justify-content: flex-end;
 }
 
 h1{
- 
   font-weight: 600;
   font-size: 3rem;
   text-transform: uppercase;
@@ -22,7 +23,6 @@ h1{
   margin: 0;
   color:#FFF;
 }
-
 
 h2 {
   font-weight: 400;
@@ -49,7 +49,6 @@ main{
   background: #7dbae6;
   max-width: 750px;
   margin: auto;
- 
 }
 
 #landing {
@@ -114,8 +113,11 @@ main{
 }
 
 .btn2:hover {
- 
+  background:#152744;
+  color:rgb(158, 158, 158);
 }
+
+
 @media (min-width: 500px) {
 
 h1{
@@ -146,7 +148,6 @@ header, footer{
 main{
   background: #7dbae6;
   margin: auto;
- 
 }
 
   #landing {
@@ -163,7 +164,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
   }
 
   #landing-image {
@@ -175,6 +175,7 @@ main{
     flex: 0 1 vw;
     margin: 0;
   }
+
   .btn {
     padding: 1rem 2rem;
     display: inline-block;
@@ -209,6 +210,7 @@ main{
 
 }
 
+
 @media (min-width: 800px) {
   h1{
     font-size: 4rem;
@@ -238,7 +240,6 @@ main{
   main{
     background: #7dbae6;
     margin: auto;
-   
   }
   
     #landing {
@@ -255,7 +256,6 @@ main{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-     
     }
   
     #landing-image {
@@ -267,6 +267,7 @@ main{
       flex: 0 1 30vw;
       margin: 0;
     }
+
     .btn {
       padding: 1rem 2rem;
       display: inline-block;
@@ -296,11 +297,11 @@ main{
     .btn2:hover {
      background:#152744;
      color:rgb(158, 158, 158);
-  
     }
   
   }
   
+
   @media (min-width: 1200px) {
     h1{
       font-size: 6rem;
@@ -322,14 +323,12 @@ main{
       justify-content:flex-end;
       background:#7dbae6;
       margin: auto;
-      padding: 1rem 3rem;
-      
+      padding: 1rem 3rem; 
     }
     
     main{
       background: #7dbae6;
       margin: auto;
-     
     }
     
       #landing {
@@ -345,7 +344,6 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
       }
     
       #landing-image {
@@ -357,6 +355,7 @@ main{
         flex: 0 1 20vw;
         margin: 0;
       }
+      
       .btn {
         padding: 1rem 2rem;
         display: inline-block;
